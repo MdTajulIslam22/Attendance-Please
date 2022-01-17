@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3300FF00"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_height="200dp"
+        android:layout_width="200dp"
+        android:src="@drawable/mist_logo"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#80009600"
+        android:padding="5dp"
+        android:onClick="attendacePage"
+        tools:ignore="OnClick">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="mangrove"
+            android:textAllCaps="true"
+            android:textColor="#fff"
+            android:textSize="45sp"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Institute Of Science and Technology"
+            android:textSize="20sp"
+            android:paddingBottom="10dp"
+            android:textColor="#fff"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:text="অ্যাটেনডেন্স প্লিজ..."
+        android:textColor="#80009600"
+        android:padding="5dp"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:orientation="vertical"
+        android:background="#80009600"
+        android:onClick="about">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Developed by Md.Tajul Islam"
+            android:layout_gravity="center"
+            android:textColor="#fff"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(Computer 17-18, MIST)"
+            android:layout_gravity="right"
+            android:layout_marginRight="20dp"
+            android:textColor="#fff"/>
+    </LinearLayout>
+</LinearLayout>

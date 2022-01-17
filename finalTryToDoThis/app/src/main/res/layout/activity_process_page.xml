@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_image"
+    tools:context=".ProcessPage">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="অ্যাটেনডেন্স প্লিজ..."
+        android:padding="5dp"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Present from Computer-7th"
+        android:padding="5dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#66009800">
+        <TextView
+            android:id="@+id/present_roll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textFontWeight="1"
+            android:text=""
+            android:padding="20dp"
+            android:lines="22"/>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0">
+        <Button
+            android:id="@+id/copy_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="copy all"
+            android:backgroundTint="#009800"
+            android:layout_margin="6dp"/>
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="Send Mail"
+            android:onClick="sendMail"
+            android:backgroundTint="#009800"
+            android:layout_margin="6dp"/>
+    </LinearLayout>
+
+</LinearLayout>

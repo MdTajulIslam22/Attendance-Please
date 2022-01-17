@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_image"
+    tools:context=".Attendance">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="অ্যাটেনডেন্স প্লিজ..."
+        android:padding="5dp"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Computer-7th"
+        android:padding="5dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#33009800"
+        android:layout_marginBottom="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Subject:"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_gravity="center"/>
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <RadioGroup
+                    android:id="@+id/radio_group"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <RadioButton
+                        android:id="@+id/radio1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="66671"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="10dp"/>
+                    <RadioButton
+                        android:id="@+id/radio2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="66672"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="10dp"/>
+                    <RadioButton
+                        android:id="@+id/radio3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="66673"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="10dp"/>
+                    <RadioButton
+                        android:id="@+id/radio4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="66674"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="10dp"/>
+                    <RadioButton
+                        android:id="@+id/radio5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="66675"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="10dp"/>
+                    <RadioButton
+                        android:id="@+id/radio6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="66676"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="10dp"/>
+                    <RadioButton
+                        android:id="@+id/radio7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="65853"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="10dp"/>
+                </RadioGroup>
+            </LinearLayout>
+        </ScrollView>
+        <TextView
+            android:id="@+id/store_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Group-A"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_gravity="center"/>
+            <CheckBox
+                android:id="@+id/somrat"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Hasib Rayhan Somrat (959080)"
+                android:paddingLeft="20dp"
+                android:background="#1A00FF00"
+                android:layout_margin="5dp" />
+            <CheckBox
+                android:id="@+id/noor"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Md.Oli Khan(Noor) (959083)"
+                android:paddingLeft="20dp"
+                android:background="#1A00FF00"
+                android:layout_margin="5dp" />
+            <CheckBox
+                android:id="@+id/arifur"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Md Arifur Rahman (959085)"
+                android:paddingLeft="20dp"
+                android:background="#1A00FF00"
+                android:layout_margin="5dp" />
+            <CheckBox
+                android:id="@+id/hafizur"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Hafizur Rahman (959087)"
+                android:paddingLeft="20dp"
+                android:background="#1A00FF00"
+                android:layout_margin="5dp" />
+            <CheckBox
+                android:id="@+id/tajul"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Md. Tajul Islam (959088)"
+                android:paddingLeft="20dp"
+                android:background="#1A00FF00"
+                android:layout_margin="5dp" />
+            <CheckBox
+                android:id="@+id/mahmud"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Mahmud Ali (959089)"
+                android:paddingLeft="20dp"
+                android:background="#1A00FF00"
+                android:layout_margin="5dp" />
+            <CheckBox
+                android:id="@+id/rafsan"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Rafsan Zomaddar (959090)"
+                android:paddingLeft="20dp"
+                android:background="#1A00FF00"
+                android:layout_margin="5dp" />
+            <CheckBox
+                android:id="@+id/ripon_video"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Ripon Gazi (959199)"
+                android:paddingLeft="20dp"
+                android:background="#1A00FF00"
+                android:layout_margin="5dp" />
+            <CheckBox
+                android:id="@+id/sekhor"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Sekhor CondroRoy (959101)"
+                android:paddingLeft="20dp"
+                android:background="#1A00FF00"
+                android:layout_margin="5dp" />
+            <CheckBox
+                android:id="@+id/tariqul"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Tariqul Islam (959102)"
+                android:paddingLeft="20dp"
+                android:background="#1A00FF00"
+                android:layout_margin="5dp" />
+            <CheckBox
+                android:id="@+id/nighat"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Nighat Parbin Hayat (959111)"
+                android:paddingLeft="20dp"
+                android:background="#1A00FF00"
+                android:layout_margin="5dp" />
+            <CheckBox
+                android:id="@+id/rayhan"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Md Rayhan Hossain (959145)"
+                android:paddingLeft="20dp"
+                android:background="#1A00FF00"
+                android:layout_margin="5dp" />
+            <CheckBox
+                android:id="@+id/simul"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Simul Hossain(959148)"
+                android:paddingLeft="20dp"
+                android:background="#1A00FF00"
+                android:layout_margin="5dp" />
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Process"
+                android:backgroundTint="#009800"
+                android:layout_gravity="center"
+                android:onClick="process"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
